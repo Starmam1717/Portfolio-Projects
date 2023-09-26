@@ -280,5 +280,14 @@ select carrier_name, carrier_ct, carrier_delay, round(carrier_delay/carrier_ct,2
 
 --Carriers with most late aircraft delays in desc order of (late aircraft delay time)/(late aircrafts)
 
-select carrier_name, late_aricraft_ct, late_aircraft_delay, round(late_aircraft_delay/late_aricraft_ct,2) as delay_over_ct from carrier_sums order by delay_over_ct desc 
+select carrier_name, late_aricraft_ct, late_aircraft_delay, round(late_aircraft_delay/late_aricraft_ct,2) as delay_over_ct from carrier_sums order by delay_over_ct desc   
+
+
+--------------------------------------- 
+--Months with most weather delays
+select month, weather_ct from Month_sums order by weather_ct desc 
+--Months with most delays in total
+select month, delay_totals from month_sums order by delay_totals desc 
+--Months with most flights
+select month, arr_flights from month_sums order by arr_flights desc
 
