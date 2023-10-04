@@ -1,6 +1,6 @@
 # Portfolio-Projects 
 Collection of Portfolio projects 
-\newline
+
 #Airline Delay Project* 
 \begin{enumerate} 
 \iteam asd
