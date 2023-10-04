@@ -1,7 +1,7 @@
 # Portfolio-Projects 
 Collection of Portfolio projects 
 
-#**Airline Delay Project**
+# **Airline Delay Project**
 
 -Did EDA on Airline delay causes from Jan to May 2023 
 
