@@ -1,7 +1,7 @@
 # Portfolio-Projects 
 Collection of Portfolio projects 
 
-#Airline Delay Project* 
+#**Airline Delay Project**
 
 -Did EDA on Airline delay causes from Jan to May 2023 
 
@@ -12,7 +12,7 @@ This can help a custumer decide on which Airports are going to have most delays 
 
 
 
-#Apple Sotre Project* 
+# **Apple Sotre Project** 
 
 -EDA on Apple store apps 
 
